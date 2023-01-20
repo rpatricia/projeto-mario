@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.cabecalho .logo {
+    width: 65px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-size: bold;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px  20px;
+    border-radius: 50px;
+    transition: 0.2s;
+
+}
+
+.cabecalho nav li a:hover {
+    background-color: #d5011d;
+}
+
